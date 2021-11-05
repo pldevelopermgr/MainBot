@@ -1,5 +1,7 @@
 package discord.server.brn.app.bot;
 
+import net.dv8tion.jda.api.JDABuilder;
+
 public class BOT
 {
     private BOT() {}
@@ -25,5 +27,6 @@ public class BOT
 
     // Vars
 
+    private JDABuilder builder;
 
 }
